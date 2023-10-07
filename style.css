@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav {
+     width: 100vw;
+     background-color: black;
+     position: fixed;
+     display: flex;
+     margin-right: auto;
+     margin-left: auto;
+}
+.nav-item {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.nav-item:hover {
+    background-color: #cccccc;
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider {
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+    height: 100vh;
+}
+.about {
+    width: 80%;
+    right: 50%;
+}
+.list {
+    width: 80%;
+}
+em {
+    font-style: italic;
+}
+.quote {
+    margin: 10px auto;
+    padding: 10px 0 0 10px;
+    border: 2px solid #c3e5f8;
+    border-radius: 5px;
+    background-color: #dbedf9;
+    clear: both;
+    font-size: 18px;
+}
+/* img {
+    width: 80%;
+    height: 60%;
+} */
+
+.title {
+    height: 100vh;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/738/279/desktop-wallpaper-artstation-chinese-mid-autumn-festival-design-judy-kao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
